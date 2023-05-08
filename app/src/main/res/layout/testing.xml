@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simpleTableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"> <!-- stretch the second column of the layout-->
+
+    <!-- first row of the table layout-->
+    <TableRow
+
+        android:id="@+id/firstRow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- first element of the row-->
+        <TextView
+
+            android:id="@+id/simpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#b0b0b0"
+            android:padding="18dip"
+            android:text="Text 1"
+            android:textColor="#000"
+            android:textSize="22dp" />
+
+        <TextView
+
+            android:id="@+id/simpleTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FF0000"
+            android:padding="18dip"
+            android:text="Text 2"
+            android:textColor="#000"
+            android:textSize="24dp" />
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/secondRow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- first element of the row-->
+        <TextView
+
+            android:id="@+id/simpleTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#b0b0b0"
+            android:padding="18dip"
+            android:text="Text 1"
+            android:textColor="#000"
+            android:textSize="22dp" />
+
+        <TextView
+
+            android:id="@+id/simpleTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FF0000"
+            android:padding="18dip"
+            android:text="Text 2"
+            android:textColor="#000"
+            android:textSize="24dp" />
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/thirdRow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- first element of the row-->
+        <TextView
+
+            android:id="@+id/simpleTextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#b0b0b0"
+            android:padding="18dip"
+            android:text="Text 1"
+            android:textColor="#000"
+            android:textSize="22dp" />
+
+        <TextView
+
+            android:id="@+id/simpleTextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FF0000"
+            android:padding="18dip"
+            android:text="Text 2"
+            android:textColor="#000"
+            android:textSize="24dp" />
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/fourthRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- first element of the row-->
+        <TextView
+
+            android:id="@+id/simpleTextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#b0b0b0"
+            android:padding="18dip"
+            android:text="Text 1"
+            android:textColor="#000"
+            android:textSize="22dp" />
+
+        <TextView
+
+            android:id="@+id/simpleTextView8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FF0000"
+            android:padding="18dip"
+            android:text="Text 2"
+            android:textColor="#000"
+            android:textSize="24dp" />
+
+    </TableRow>
+</TableLayout>
