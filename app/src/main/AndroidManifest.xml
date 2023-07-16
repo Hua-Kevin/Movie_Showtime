@@ -15,7 +15,7 @@
         android:theme="@style/Theme.Movie_Showtime"
         tools:targetApi="31" >
         <activity
-            android:name=".Main_Page"
+            android:name=".part_one.Main_Page"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,26 +24,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity4"
-            android:exported="true"
-            android:label="@string/title_activity_main4"
-            android:theme="@style/Theme.Movie_Showtime" />
-        <activity
-            android:name=".MainActivity3"
+            android:name=".part_one.DetailActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".part_one.MainActivity_movieSearch"
+            android:exported="true" />
+
+
+        <activity
+            android:name=".part_two.DetailActivity_theatre"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true" >
-        </activity>
-        <activity
-            android:name=".DetailActivity"
+            android:name=".part_two.MainActivity"
             android:exported="true" />
-        <activity
-            android:name=".MainActivity_movieSearch"
-            android:exported="true" />
+
+
 
         <meta-data
             android:name="rapid_api"

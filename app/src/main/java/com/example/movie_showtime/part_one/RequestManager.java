@@ -1,4 +1,4 @@
-package com.example.movie_showtime;
+package com.example.movie_showtime.part_one;
 
 import android.content.Context;
 import android.widget.Toast;

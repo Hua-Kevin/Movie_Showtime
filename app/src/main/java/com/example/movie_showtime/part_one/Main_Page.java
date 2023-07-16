@@ -1,4 +1,4 @@
-package com.example.movie_showtime;
+package com.example.movie_showtime.part_one;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -7,11 +7,12 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.EditText;
-import android.widget.Toast;
 
 
 import android.content.pm.ApplicationInfo;
+
+import com.example.movie_showtime.R;
+import com.example.movie_showtime.part_two.MainActivity;
 
 public class Main_Page extends AppCompatActivity {
 

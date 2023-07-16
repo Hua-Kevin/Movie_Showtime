@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main_Page">
+    tools:context=".part_one.Main_Page">
 
     <Button
         android:id="@+id/SearchMButton"
@@ -37,17 +37,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
+        android:id="@+id/Welcome_Text"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="177dp"
-        android:layout_marginTop="266dp"
-        android:layout_marginEnd="176dp"
-        android:layout_marginBottom="144dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="457dp"
         android:text="Welcome"
-        app:layout_constraintBottom_toTopOf="@+id/SearchMButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textAlignment="center"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="170dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

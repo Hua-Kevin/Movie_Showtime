@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/black"
     android:orientation="vertical"
-    tools:context=".part_one.DetailActivity">
+    tools:context=".DetailActivity_theatre">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -26,8 +26,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <TextView
-                        android:id="@+id/textView_movieName"
-                        android:text="Movie Name"
+                        android:id="@+id/textView_TheatreName"
+                        android:text="Theatre Name"
                         android:textColor="@color/black"
                         android:textAlignment="textStart"
                         android:textStyle="bold"
@@ -36,7 +36,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
                     <TextView
-                        android:id="@+id/textView_movieReleased"
+                        android:id="@+id/textView_TheatreAddress"
                         android:text=""
                         android:textColor="@color/black"
                         android:textAlignment="textStart"
@@ -46,7 +46,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
                     <TextView
-                        android:id="@+id/textView_movieRunTime"
+                        android:id="@+id/textView_TheatreDescription"
                         android:text=""
                         android:textColor="@color/black"
                         android:textAlignment="textStart"
@@ -56,7 +56,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
                     <TextView
-                        android:id="@+id/textView_movieRating"
+                        android:id="@+id/textView_TheatreDirection"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textAlignment="textStart"
+                        android:textStyle="normal"
+                        android:textSize="18sp"
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/textView_TheatreRating"
                         android:text=""
                         android:textColor="@color/black"
                         android:textAlignment="center"
@@ -65,46 +75,9 @@
                         android:padding="8dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
-                    <TextView
-                        android:id="@+id/textView_movieVotes"
-                        android:text=""
-                        android:textColor="@color/black"
-                        android:textAlignment="textStart"
-                        android:textStyle="bold"
-                        android:textSize="20sp"
-                        android:padding="8dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/white"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="8dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <ImageView
-                        android:id="@+id/imageView_moviePoster"
-                        android:layout_marginTop="8dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-                    <TextView
-                        android:id="@+id/textView_moviePlot"
-                        android:textStyle="normal"
-                        android:textAlignment="center"
-                        android:textSize="18sp"
-                        android:textColor="@color/black"
-                        android:padding="8dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_margin="8dp"
                 app:cardCornerRadius="8dp"
@@ -121,7 +94,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
                         <TextView
-                            android:text="Actors"
+                            android:text="Upcoming Movies"
                             android:textColor="@color/black"
                             android:textSize="18sp"
                             android:textAlignment="center"
@@ -134,21 +107,14 @@
                             android:background="@color/black"
                             android:layout_width="1dp"
                             android:layout_height="match_parent"/>
-                        <TextView
-                            android:text="Role"
-                            android:textColor="@color/black"
-                            android:textSize="18sp"
-                            android:textAlignment="center"
-                            android:textStyle="bold"
-                            android:padding="8dp"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:layout_height="wrap_content"/>
                     </LinearLayout>
                     <androidx.recyclerview.widget.RecyclerView
-                        android:id="@+id/recycler_movieCast"
+                        android:id="@+id/recycler_view_movie"
+                        android:layout_margin="8dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content">
+
+                    </androidx.recyclerview.widget.RecyclerView>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>

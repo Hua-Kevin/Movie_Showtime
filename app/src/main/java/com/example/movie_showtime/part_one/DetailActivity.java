@@ -1,4 +1,4 @@
-package com.example.movie_showtime;
+package com.example.movie_showtime.part_one;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.movie_showtime.R;
 import com.example.movie_showtime.Adapters.CastRecyclerAdapter;
 import com.example.movie_showtime.Listeners.OnDetailsApiListener;
 import com.example.movie_showtime.Models.CastApiResponse;

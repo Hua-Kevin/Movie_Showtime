@@ -1,4 +1,4 @@
-package com.example.movie_showtime;
+package com.example.movie_showtime.part_one;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -10,6 +10,7 @@ import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.movie_showtime.R;
 import com.example.movie_showtime.Adapters.HomeRecyclerAdapter;
 import com.example.movie_showtime.Listeners.OnMovieClickListener;
 import com.example.movie_showtime.Listeners.OnSearchApiListener;

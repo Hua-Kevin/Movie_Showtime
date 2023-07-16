@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/white"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -18,7 +18,7 @@
         <androidx.appcompat.widget.SearchView
             android:id="@+id/search_view"
             app:iconifiedByDefault="false"
-            app:queryHint="Search Movies..."
+            app:queryHint="Search Theatre by Location..."
             android:padding="8dp"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"/>
